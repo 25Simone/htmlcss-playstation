@@ -11,7 +11,7 @@
     background-position: center;
 }
 .jumbotron img{
-    width: 250px;
+    width: 300px;
 }
 .jumbotron h1,
 .jumbotron p{
@@ -66,4 +66,7 @@
 }
 .ps5-section img{
     width: 100%;
+}
+.col:first-child .ps5-images{
+    border-bottom: 3px solid #2d64e6;
 }
