@@ -1,0 +1,50 @@
+/* utility */
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #fff;
+}
+.jumbotron{
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+.jumbotron img{
+    width: 250px;
+}
+.jumbotron h1,
+.jumbotron p{
+    width: 100%;
+    margin: 30px 0;
+}
+.jumbotron .button{
+    background: #cd3d0f;
+}
+/* end utility */
+
+
+/* header  */
+.pre-nav{
+    padding: 10px;
+    background: #000;
+    display: flex;
+    justify-content: flex-end;
+}
+.pre-nav img{
+    width: 100px;
+}
+/* end header */
+
+/* jumbotron-1 */
+.jumbotron-1{
+    padding-top:  250px;
+    background-image: url("../img/jumbo-bg.png");
+}
+/* end jumbotron-1 */
+
+/* game-cards */
+.game-cards img{
+    width: 100%;
+}
+
