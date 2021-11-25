@@ -21,7 +21,10 @@
 .jumbotron .button{
     background: #cd3d0f;
 }
-.section-subtitle{
+.section-title{
+    padding-bottom: 50px;
+}
+.subtitle{
     color: #898989;
     padding: 20px 0;
     font-size: 20px;
@@ -54,10 +57,7 @@
     border-radius: 20px;
 }
 
-/* console PS5 */
-.section-title{
-    padding-bottom: 50px;
-}
+/* esplora PS5 */
 .ps5-section .section-title>div:first-child{
     color: #1c82d3;
     font-weight: 500;
@@ -82,4 +82,15 @@
 /* mew games section */
 .game-cards{
     color: #fff;
+}
+
+/* esplora PS4 */
+.ps4-section img{
+    width: 100%;
+}
+.ps4-section .subtitle.ps4{
+    max-width: 350px;
+}
+.ps4-section .button{
+    background: #2d64e6;
 }
