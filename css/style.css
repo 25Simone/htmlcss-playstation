@@ -94,3 +94,43 @@
 .ps4-section .button{
     background: #2d64e6;
 }
+
+/* playstation plus */
+.ps-plus{
+    background: #ccc;
+    font-weight: 500;
+}
+#ps-plus-logo{
+    width: 350px;
+}
+.ps-plus .button{
+    color: #2d64e6;
+    background: #eee;
+    margin-bottom: 20px;
+}
+.ps-plus img:not(#ps-plus-logo){
+    width: 100%;
+}
+
+/* discounts in store */
+.discounts img{
+    width: 100%;
+}
+
+/* playsattion now */
+.ps-now{
+    background: #161c3b;
+    font-weight: 500;
+    color: white;
+}
+#ps-now-logo{
+    width: 350px;
+}
+.ps-now .button{
+    background: #fff;
+    color: #000;
+    margin-bottom: 20px;
+}
+.ps-now img:not(#ps-now-logo){
+    width: 100%;
+}
