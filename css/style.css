@@ -70,3 +70,10 @@
 .col:first-child .ps5-images{
     border-bottom: 3px solid #2d64e6;
 }
+
+
+/* jumbotron-2 */
+.jumbotron-2{
+    padding-top: 40px;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
