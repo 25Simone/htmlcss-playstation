@@ -21,6 +21,11 @@
 .jumbotron .button{
     background: #cd3d0f;
 }
+.section-subtitle{
+    color: #898989;
+    padding: 20px 0;
+    font-size: 20px;
+}
 /* end utility */
 
 
@@ -34,17 +39,31 @@
 .pre-nav img{
     width: 100px;
 }
-/* end header */
+
 
 /* jumbotron-1 */
 .jumbotron-1{
     padding-top:  250px;
     background-image: url("../img/jumbo-bg.png");
 }
-/* end jumbotron-1 */
+
 
 /* game-cards */
 .game-cards img{
     width: 100%;
 }
 
+/* console PS5 */
+.section-title{
+    padding-bottom: 50px;
+}
+.ps5-section .section-title>div:first-child{
+    color: #1c82d3;
+    font-weight: 500;
+}
+.ps5-section .button{
+    background: #2d64e6;
+}
+.ps5-section img{
+    width: 100%;
+}
