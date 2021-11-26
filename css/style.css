@@ -66,6 +66,26 @@ nav .fa-search{
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
     color: #2d64e6;
 }
+.nav-item.dropdown{
+    position: unset;
+}
+nav .dropdown-menu{
+    width: 100%;
+}
+.dropdown-menu[data-bs-popper]{
+    margin-top: 0;
+}
+/* .nav-games-link{
+    display: inline-block;
+}
+.nav-games-link li{
+    list-style: disc;
+    color: #2d64e6;
+    margin-right: 20px;
+} 
+.nav-games-link li a{
+    color: #000;
+}  */
 
 
 /* jumbotron-1 */
@@ -86,8 +106,14 @@ nav .fa-search{
 .game-cards img{
     width: 100%;
     border-radius: 20px;
-}.game-cards img:hover{
+}
+.game-cards .game-card:hover{
     margin-top: -20px;
+}
+.card-border{
+    border: 2px solid #2d64e6;
+    border-radius: 20px;
+    padding: 2px;
 }
 
 /* esplora PS5 */
@@ -106,6 +132,10 @@ nav .fa-search{
 }
 .col:first-child .ps5-images{
     border-bottom: 3px solid #2d64e6;
+}
+.ps5-images:not(.col:first-child .ps5-images){
+    opacity: 0.7;
+    transition: opacity .5s;
 }
 
 
@@ -214,4 +244,7 @@ nav .fa-search{
 }
 .button-border:hover .button{
     padding: 8px 18px;
+}
+.ps5-images:not(.col:first-child .ps5-images):hover{
+    opacity: 1;
 }
