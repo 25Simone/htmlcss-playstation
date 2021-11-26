@@ -4,6 +4,14 @@
     padding: 10px 20px;
     border-radius: 25px;
     color: #fff;
+    transition: padding .2s;
+}
+.button-border{
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding: 0;
+    transition: padding .2s;
+    display: inline-block;
 }
 .jumbotron{
     color: #fff;
@@ -17,9 +25,6 @@
 .jumbotron p{
     width: 100%;
     margin: 30px 0;
-}
-.jumbotron .button{
-    background: #cd3d0f;
 }
 .section-title{
     padding-bottom: 50px;
@@ -42,12 +47,31 @@
 .pre-nav img{
     width: 100px;
 }
+nav .button{
+    background: #000;
+}
+nav .fa-search{
+    font-size: 20px;
+    margin: 0 15px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #2d64e6;
+}
 
 
 /* jumbotron-1 */
 .jumbotron-1{
     padding-top:  250px;
     background-image: url("../img/jumbo-bg.png");
+}
+.jumbotron .button{
+    background: #cd3d0f;
+}
+.jumbotron .button-border{
+    border-color: #cd3d0f;
 }
 
 
@@ -64,6 +88,9 @@
 }
 .ps5-section .button{
     background: #2d64e6;
+}
+.ps5-section .button-border{
+    border-color: #2d64e6;
 }
 .ps5-section img{
     width: 100%;
@@ -94,6 +121,9 @@
 .ps4-section .button{
     background: #2d64e6;
 }
+.ps4-section .button-border{
+    border-color: #2d64e6;
+}
 
 /* playstation plus */
 .ps-plus{
@@ -106,6 +136,9 @@
 .ps-plus .button{
     color: #2d64e6;
     background: #eee;
+}
+.ps-plus .button-border{
+    border-color: #eee;
     margin-bottom: 20px;
 }
 .ps-plus img:not(#ps-plus-logo){
@@ -129,8 +162,24 @@
 .ps-now .button{
     background: #fff;
     color: #000;
+}
+.ps-now .button-border{
+    border-color: #fff;
     margin-bottom: 20px;
 }
 .ps-now img:not(#ps-now-logo){
     width: 100%;
+}
+
+
+
+
+
+/* transitions */
+
+.button-border:hover{
+    padding: 2px;
+}
+.button-border:hover .button{
+    padding: 8px 18px;
 }

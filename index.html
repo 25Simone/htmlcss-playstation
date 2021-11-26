@@ -19,7 +19,7 @@
         </div>
 
         <!-- navbar  correggere indentazione e completare -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="ps-nav navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <img class="navbar-brand" src="./img/play_logo.svg" alt="logo PlayStation">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                   <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Giochi
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -41,7 +41,7 @@
                   </li>
 
                   <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Hardware
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -53,7 +53,7 @@
                   </li>
 
                   <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Servizi
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -65,7 +65,7 @@
                   </li>
 
                   <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Novità
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -77,7 +77,7 @@
                   </li>
 
                   <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                      Fai acquisti
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -89,7 +89,7 @@
                   </li>
 
                   <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Supporto
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -101,11 +101,26 @@
                   </li>
                 </ul>
                 
-                <div>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                      </form>
+                <div class="d-flex">
+                  <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        My PlayStation
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+
+                  <form class="d-flex">
+                    <a class="button-border" href="#"><div class="button">Accedi</div></a>
+                    <div class="d-flex align-items-center"><i class="d-none d-lg-block fas fa-search"></i></div>
+                    <input class="form-control me-2 d-block d-lg-none" type="search" placeholder="Search" aria-label="Search">
+                  </form>
                 </div>
                 
               </div>
@@ -121,7 +136,7 @@
                   <img src="./img/returnal-hero-banner-logo.png" alt="logo returnal">
                   <h1 class="col-4">Rompi il cerchio</h1>
                   <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
-                  <a href="#"><div class="button">Acquista ora</div></a>
+                  <a class="button-border" href="#"><div class="button">Acquista ora</div></a>
                 </div>
             </div>
         </div>
@@ -163,7 +178,7 @@
               <div class="col-12 col-md-6">
                 <h1>Console PlatStation 5</h1>
                 <div class="subtitle">Sperimenta la nuova generazione di incredibili giochi PlayStation.</div>
-                <a href="#"><div class="button">Maggiori informazioni</div></a>
+                <a class="button-border" href="#"><div class="button">Maggiori informazioni</div></a>
               </div>
               <div class="col-12 col-md-6">
                 <img src="./img/playstation-5-thumb.png" alt="immagine console">
@@ -218,7 +233,7 @@
                 <img src="./img/it-takes-two-logo.png" alt="logo returnal">
                 <h1 class="col-4">Un'avventura cooperativa selvaggia ti attende</h1>
                 <p>Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.</p>
-                <a href="#"><div class="button">Acquista ora</div></a>
+                <a class="button-border" href="#"><div class="button">Acquista ora</div></a>
               </div>
           </div>
       </div>
@@ -298,19 +313,19 @@
             <img src="./img/ps4-slim-homepage-image-block.jpg" alt="foto ps4">
             <h1>PlayStation 4</h1>
             <div class="subtitle ps4">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</div>
-            <a href="#"><div class="button">Scopri di più</div></a>
+            <a class="button-border" href="#"><div class="button">Scopri di più</div></a>
           </div>
           <div class="col-12 col-md-4">
             <img src="./img/double11-202010-tw-psvr.jpg" alt="foto ps4">
             <h1>PlayStation VR</h1>
             <div class="subtitle ps4">Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</div>
-            <a href="#"><div class="button">Scopri di più</div></a>
+            <a class="button-border" href="#"><div class="button">Scopri di più</div></a>
           </div>
           <div class="col-12 col-md-4">
             <img src="./img/dualshock-4-listing-thumb.jpg" alt="foto ps4">
             <h1>Accessori</h1>
             <div class="subtitle ps4">Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</div>
-            <a href="#"><div class="button">Scopri di più</div></a>
+            <a class="button-border" href="#"><div class="button">Scopri di più</div></a>
           </div>
         </div>
       </div>
@@ -320,10 +335,10 @@
     <div class="container-fluid ps-plus">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-12 col-md-6">
+          <div class="col-12 mt-5 mb-5 col-md-6 mt-md-0 mb-md-0">
             <img id="ps-plus-logo" src="./img/ps-plus-logo.png" alt="logo playstation plus">
-            <p class="py-4">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
-            <a href="#"><div class="button">Esplora PlayStation Plus</div></a>
+            <p class="py-2">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
+            <a class="button-border" href="#"><div class="button">Esplora PlayStation Plus</div></a>
           </div>
           <div class="col-md-6 d-none d-sm-none d-md-block">
             <img src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="giochi mensili ps plus">
@@ -360,7 +375,7 @@
           <div class="col-12 col-md-6">
             <img id="ps-now-logo" src="./img/ps-now-logo-two-column.png" alt="logo playstation now">
             <p class="py-4">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
-            <a href="#"><div class="button">Esplora PlayStation Now</div></a>
+            <a class="button-border" href="#"><div class="button">Esplora PlayStation Now</div></a>
           </div>
           <div class="col-md-6 d-none d-sm-none d-md-block">
             <img src="./img/ps-now-april-featured-image-block.png" alt="giochi mensili ps plus">
