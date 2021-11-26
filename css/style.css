@@ -38,6 +38,12 @@
 
 
 /* header  */
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1001;
+}
 .pre-nav{
     padding: 10px;
     background: #000;
@@ -64,6 +70,7 @@ nav .fa-search{
 
 /* jumbotron-1 */
 .jumbotron-1{
+    margin-top: 113px;
     padding-top:  250px;
     background-image: url("../img/jumbo-bg.png");
 }
@@ -171,7 +178,30 @@ nav .fa-search{
     width: 100%;
 }
 
-
+/* footer */
+.footer{
+    background: #00439c;
+    color: #fff;
+}
+#logo-ps{
+    width: 150px;
+    margin-bottom: 30px;
+}
+#logo-ps + div{
+    font-size: 18px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    margin: 15px 0;
+}
+#sie-logo{
+    width: 200px;
+}
+.footer p span{
+    text-decoration: underline;
+}
 
 
 
