@@ -53,6 +53,9 @@ header{
 .pre-nav img{
     width: 100px;
 }
+nav{
+    background: #fff;
+}
 nav .button{
     background: #000;
 }
@@ -74,18 +77,9 @@ nav .dropdown-menu{
 }
 .dropdown-menu[data-bs-popper]{
     margin-top: 0;
+    border: none;
+    border-radius: 0;
 }
-/* .nav-games-link{
-    display: inline-block;
-}
-.nav-games-link li{
-    list-style: disc;
-    color: #2d64e6;
-    margin-right: 20px;
-} 
-.nav-games-link li a{
-    color: #000;
-}  */
 
 
 /* jumbotron-1 */
