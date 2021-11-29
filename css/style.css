@@ -1,18 +1,22 @@
 /* utility */
-.button{
+a.btn{
+    border-radius: 40px;
+    border-width: 2px;
+}
+/* .button{
     display: inline-block;
     padding: 10px 20px;
     border-radius: 25px;
     color: #fff;
     transition: padding .2s;
-}
-.button-border{
+} */
+/* .button-border{
     border: 2px solid #000;
     border-radius: 25px;
     padding: 0;
     transition: padding .2s;
     display: inline-block;
-}
+} */
 .jumbotron{
     color: #fff;
     background-size: cover;
@@ -53,11 +57,12 @@ header{
 .pre-nav img{
     width: 100px;
 }
-nav{
+.navbar{
     background: #fff;
 }
-nav .button{
+.navbar .button{
     background: #000;
+    color: #fff;
 }
 nav .fa-search{
     font-size: 20px;
@@ -104,10 +109,8 @@ nav .console-marker-link>div{
     background-image: url("../img/jumbo-bg.png");
 }
 .jumbotron .button{
+    color: #fff;
     background: #cd3d0f;
-}
-.jumbotron .button-border{
-    border-color: #cd3d0f;
 }
 
 
@@ -129,9 +132,7 @@ nav .console-marker-link>div{
 }
 .ps5-section .button{
     background: #2d64e6;
-}
-.ps5-section .button-border{
-    border-color: #2d64e6;
+    color: #fff;
 }
 .ps5-section img{
     width: 100%;
@@ -155,17 +156,12 @@ nav .console-marker-link>div{
 }
 
 /* esplora PS4 */
-.ps4-section img{
-    width: 100%;
-}
 .ps4-section .subtitle.ps4{
     max-width: 350px;
 }
 .ps4-section .button{
     background: #2d64e6;
-}
-.ps4-section .button-border{
-    border-color: #2d64e6;
+    color: #fff;
 }
 
 /* playstation plus */
@@ -183,9 +179,6 @@ nav .console-marker-link>div{
 .ps-plus .button-border{
     border-color: #eee;
     margin-bottom: 20px;
-}
-.ps-plus img:not(#ps-plus-logo){
-    width: 100%;
 }
 
 /* discounts in store */
@@ -205,13 +198,6 @@ nav .console-marker-link>div{
 .ps-now .button{
     background: #fff;
     color: #000;
-}
-.ps-now .button-border{
-    border-color: #fff;
-    margin-bottom: 20px;
-}
-.ps-now img:not(#ps-now-logo){
-    width: 100%;
 }
 
 /* footer */
@@ -240,13 +226,12 @@ nav .console-marker-link>div{
 }
 
 
-
 /* transitions */
-.button-border:hover{
-    padding: 2px;
+a.btn:hover{
+    box-shadow: inset 0 0 0 2px #fff;
 }
-.button-border:hover .button{
-    padding: 8px 18px;
+.ps-now a.btn:hover{
+    box-shadow: inset 0 0 0 2px #161c3b;
 }
 .game-cards .game-card:hover img{
     border-color: #2d64e6;
@@ -255,4 +240,7 @@ nav .console-marker-link>div{
 .ps5-images:hover{
     opacity: 1;
     border-color: #2d64e6;
+}
+.dropdown-item:hover{
+    background: #fff;
 }
