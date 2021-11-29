@@ -80,7 +80,16 @@ nav .dropdown-menu{
     border: none;
     border-radius: 0;
 }
-
+.nav-link li{
+    color: #2d64e6;
+    margin: 0 20px;
+    list-style-type: disc;
+}
+.nav-link li a{
+    padding-left: 0;
+    padding-right: 0;
+    color: #000;
+}
 
 /* jumbotron-1 */
 .jumbotron-1{
@@ -99,15 +108,12 @@ nav .dropdown-menu{
 /* game-cards */
 .game-cards img{
     width: 100%;
-    border-radius: 20px;
-}
-.game-cards .game-card:hover{
-    margin-top: -20px;
-}
-.card-border{
-    border: 2px solid #2d64e6;
-    border-radius: 20px;
-    padding: 2px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    padding: 3px;
+    position: relative;
+    top: 0;
+    transition: all .3s ease-in-out;
 }
 
 /* esplora PS5 */
@@ -124,12 +130,10 @@ nav .dropdown-menu{
 .ps5-section img{
     width: 100%;
 }
-.col:first-child .ps5-images{
-    border-bottom: 3px solid #2d64e6;
-}
-.ps5-images:not(.col:first-child .ps5-images){
+.ps5-images{
+    border-bottom: 3px solid transparent;
     opacity: 0.7;
-    transition: opacity .5s;
+    transition: all .4s;
 }
 
 
@@ -239,6 +243,11 @@ nav .dropdown-menu{
 .button-border:hover .button{
     padding: 8px 18px;
 }
-.ps5-images:not(.col:first-child .ps5-images):hover{
+.game-cards .game-card:hover img{
+    border-color: #2d64e6;
+    top: -15px;
+}
+.ps5-images:hover{
     opacity: 1;
+    border-color: #2d64e6;
 }
