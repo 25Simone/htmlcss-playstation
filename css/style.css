@@ -80,15 +80,21 @@ nav .dropdown-menu{
     border: none;
     border-radius: 0;
 }
-.nav-link li{
+.nav-tertiary-link li{
     color: #2d64e6;
     margin: 0 20px;
     list-style-type: disc;
 }
-.nav-link li a{
+.nav-tertiary-link li a{
     padding-left: 0;
     padding-right: 0;
     color: #000;
+}
+.nav-secondary-link{
+    list-style: none;
+}
+nav .console-marker-link>div{
+    width: 80px;
 }
 
 /* jumbotron-1 */
@@ -236,7 +242,6 @@ nav .dropdown-menu{
 
 
 /* transitions */
-
 .button-border:hover{
     padding: 2px;
 }
